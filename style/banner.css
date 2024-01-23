@@ -1,0 +1,32 @@
+.banner__title {
+    color: var(--white);
+    font-family: var(--RT);
+    font-size: clamp(1rem, 0.318rem + 3.41vw, 2.875rem);
+}
+
+.banner__text {
+    color: var(--white);
+    font-family: var(--RT);
+    font-size: 16px;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    gap: 20px;
+}
+
+.line {
+    max-width: 120px;
+    width: 100%;
+    background: var(--white);
+    padding: 1px;
+}
+
+.banner{
+    position: relative;
+}
+
